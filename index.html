@@ -2,95 +2,249 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Ganpati Traders - Beverages Distribution</title>
-    <style>
-        /* CSS styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Ganpati Traders</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .intro {
-            background-image: url('beverages.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 100px;
-            text-align: center;
-            color: #fff;
-        }
-
-        .intro h1 {
-            font-size: 48px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        section {
-            padding: 50px;
-            text-align: center;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Ganpati Traders</h1>
-        <p>Beverages Distributor</p>
-    </header>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <!--Rákatt ikon- elrejti a menüt-->
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <!--Rákatt ikon- mutatja a menüt-->
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
 
-    <section class="intro">
-        <h1>Welcome to Ganpati Traders</h1>
-        <h3>Your reliable partner for beverage distribution</h3>
-    </section>
+    <div class="text-box">
+      <h1>
+        Delivering Refreshing Beverages
+      </h1>
+      <div>
+        <p style="font-size: 18px; text-align: center;">Our mission is to elevate your beverage experience,offering
+          you <br>not only the finest products but also unmatched service.</p>
+        <a href="contact.html" class="hero-button">Visit us To know More</a>
+      </div>
 
-    <section>
-        <h2>About Us</h2>
-        <p>Ganpati Traders is a newly established company specializing in the distribution of a wide range of
-            high-quality beverages. As a dedicated team, we are committed to providing exceptional service to our
-            clients in the beverage industry.</p>
-    </section>
+  </section>
 
-    <section>
-        <h2>Our Offerings</h2>
-        <p>Explore our selection of beverages, carefully curated to cater to diverse tastes and preferences. We offer a
-            variety of refreshing drinks, including soft drinks, juices, energy drinks, and more.</p>
-    </section>
 
-    <section>
-        <h2>Contact Information</h2>
-        <p>If you have any inquiries or would like to learn more about our distribution services, please feel free to
-            get in touch with us:</p>
+  <!--Course-->
 
-        <p>Email: <a href="mailto:contact@ganpatitraders.org">contact@ganpatitraders.org</a></p>
-        <p>Address: Plot No, 205, Industrial Area Phase 1, Panchkula, Haryana 134113</p>
-    </section>
+  <section class="course">
+    <h1>Services We Offer</h1>
+    <p>Explore our range of services designed to meet your requirements.</p>
 
-    <footer>
-        <p>&copy; 2023 Ganpati Traders. All rights reserved.</p>
-    </footer>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Beverage Sourcing</h3>
+        <p style="text-align: justify;">
+          We source and curate a wide selection of high-quality beverages from trusted brands and suppliers. Our team
+          ensures that only the finest products make it to our inventory, giving you access to a diverse range of
+          options to suit different tastes and preferences.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Inventory Management</h3>
+        <p style="text-align: justify;">
+          We understand the importance of maintaining optimal inventory levels to meet customer demand. Our solutions
+          help you streamline your beverage supply chain, ensuring that you have the right products
+          in stock when you need them, minimizing wastage and maximizing efficiency.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Flexible Delivery Options</h3>
+        <p style="text-align: justify;">
+          We offer flexible delivery options to suit your requirements. Whether you need regular scheduled deliveries or
+          on-demand shipments, we can accommodate your preferences. Our reliable delivery network ensures that your
+          beverages reach you in a timely and efficient manner.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Campus-->
+  <section class="campus">
+    <h1>Areas Covered</h1>
+    <p>We extend our beverage distribution services to the following areas.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/london.png">
+        <div class="layer">
+          <h3>KALKA</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="images/newyork.png">
+        <div class="layer">
+          <h3>PANCHKULA</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="images/washington.png">
+        <div class="layer">
+          <h3>PINJORE</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!---Facilities-->
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Discover the key features of our facilities.</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/clean.jpg">
+        <h3>Hygienic and Clean Environment</h3>
+        <p style="text-align: justify;"> We prioritize cleanliness and hygiene in our facilities to uphold the integrity
+          of our products. Our team
+          adheres to strict sanitation protocols, ensuring that our storage areas are maintained in a pristine
+          condition. </p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/inventory.jpg">
+        <h3>Advanced Inventory Management</h3>
+        <p style="text-align: justify;">
+          Our facilities are equipped with advanced inventory management systems to track and monitor our beverage
+          stock. This enables us to efficiently manage inventory levels, track expiration dates, and ensure accurate
+          order fulfillment.</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/processing.jpg">
+        <h3>Efficient Order Processing</h3>
+        <p style="text-align: justify;">
+          We have streamlined our order processing operations to ensure quick and accurate order fulfillment. We
+          prioritize order accuracy and strive to deliver a seamless experience from order placement to delivery.</p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--Testimonials-->
+
+  <section class="testimonials">
+    <h1>What Our Retailers Says</h1>
+    <p>Hear it straight from our satisfied retailers.</p>
+
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="images/user1.jpg">
+        <div>
+          <p>
+            Ganpati Traders is a breath of fresh air in the distribution market. As a restaurant owner, I rely on
+            reliable distributors for my beverage needs, and Ganpati Traders has proven to be just that. Despite being
+            new, their commitment to quality, timely delivery, and competitive pricing are noteworthy. I'm thrilled to
+            have found them and would highly recommend their services.
+          </p>
+          <h3>Vedika Dey</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+      </div>
+      <div class="testimonial-col">
+        <img src="images/user2.jpg">
+        <div>
+          <p>
+            As a retailer, I value distributors who understand the importance of timely deliveries and quality products.
+            Ganpati Traders, has demonstrated these qualities exceptionally well. Their commitment to
+            customer satisfaction and prompt response to queries have been impressive. I have confidence in their
+            ability to grow and become a prominent distributor.
+          </p>
+          <h3>Yash Mourya</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Call To Action-->
+
+  <section class="cta">
+    <h1>Experience the essence of refreshment. <br> Take action and get in touch!</h1>
+    <a href="contact.html" class="hero-button">CONTACT US</a>
+  </section>
+
+  <!--Footer-->
+
+  <section class="footer">
+    <p>© 2023 Ganpati Traders. All rights reserved.</p>
+
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--Javascript kód menü ki és becsukására (max700px képernyőn)-->
+  <!--JavaScript for Toggle Menu-->
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
 </body>
 
 </html>

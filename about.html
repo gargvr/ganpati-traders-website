@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Ganpati Traders</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+  <style>
+    .about-text {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .about-text h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+
+    .about-text .highlight {
+      color: #ff6f00;
+    }
+
+    .about-text .emphasis {
+      font-style: italic;
+    }
+
+    .about-text .green {
+      color: #008000;
+    }
+
+    .about-text .bold {
+      font-weight: bold;
+    }
+
+    .about-text .center {
+      text-align: center;
+    }
+
+    .about-text .quote {
+      border-left: 4px solid #333;
+      font-style: italic;
+    }
+
+    .about-text .image {
+      width: 300px;
+      margin-bottom: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <!--Rákatt ikon- elrejti a menüt-->
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <!--Rákatt ikon- mutatja a menüt-->
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+
+  </section>
+
+  <!--About us Content-->
+
+  <section class="about-us">
+    <h1 style="text-align: center;">
+      Welcome to Ganpati Traders
+    </h1>
+    <div class="row">
+
+      <div class="about-text">
+        <h2>Ganpati Traders: Exceptional Beverage Distribution</h2>
+        <div class="row">
+          <div class="about-col">
+            <p>Ganpati Traders is a dynamic and emerging company dedicated to providing <span
+                class="highlight">exceptional
+                beverage distribution services</span>. As a new player in the industry, we are committed to making a
+              positive impact and establishing ourselves as a trusted partner for businesses and individuals alike.</p>
+
+            <p>Our mission is simple: to deliver the highest quality beverages that tantalize taste buds and satisfy
+              cravings. We understand the importance of offering a diverse selection of beverages that cater to various
+              preferences and lifestyles. From thirst-quenching soft drinks to revitalizing energy drinks, delightful
+              juices, and more, we strive to be a <span class="highlight">one-stop destination</span> for all your
+              beverage
+              needs.</p>
+          </div>
+          <div class="about-col">
+            <img src="images/about.jpg" alt="Sample Image 1" class="image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-col">
+            <img src="images/about1.jpg" alt="Sample Image 2" class="image">
+          </div>
+          <div class="about-col">
+            <p>What sets us apart is our unwavering commitment to excellence. We believe in the power of exceptional
+              service, and our dedicated team goes above and beyond to ensure your complete satisfaction. From
+              personalized
+              recommendations and prompt order processing to reliable delivery, we are here to exceed your expectations
+              every step of the way.</p>
+            <!-- 
+            <p>As a new company, we embrace innovation and stay up to date with the latest trends in the beverage
+              industry.
+              We constantly explore new and emerging brands, seeking out unique and exciting products to add to our
+              portfolio. Our passion for discovery allows us to bring fresh and innovative choices to our customers,
+              making
+              every sip a delightful experience.</p> -->
+
+            <p>At Ganpati Traders, we value integrity, transparency, and environmental consciousness. We prioritize
+              sustainable practices and actively seek partnerships with suppliers who share our commitment to ethical
+              sourcing and eco-friendly initiatives. We are dedicated to minimizing our environmental footprint and
+              contributing to a greener future for generations to come.</p>
+
+          </div>
+
+        </div>
+
+        <p>We are excited about the journey ahead and the opportunity to serve you. Whether you're a restaurant, café,
+          retail store, or an individual seeking exceptional beverages, we invite you to join us on this adventure.
+          Together, let's raise a glass to new beginnings and unforgettable taste experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+
+  <section class="footer">
+    <p>
+      © 2023 Ganpati Traders. All rights reserved.
+    </p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--JavaScript for Toggle Menu-->
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+
+</html>

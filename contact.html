@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Ganpati Traders</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+  <style>
+    .contact-container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .contact-details {
+      margin-bottom: 20px;
+    }
+
+    .contact-details p {
+      margin-bottom: 10px;
+    }
+
+    .contact-details strong {
+      font-weight: bold;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <!--Rákatt ikon- elrejti a menüt-->
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <!--Rákatt ikon- mutatja a menüt-->
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+  </section>
+
+  <!--Contanct US-->
+
+  <section class="location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.6548465125447!2d76.84193817546063!3d30.671846374613743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f956f661df1f3%3A0xb752662c3aebc8b5!2sGanpati%20Traders!5e0!3m2!1sen!2sin!4v1686215186384!5m2!1sen!2sin"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </section>
+  <section>
+    <div class="contact-container">
+      <h2 class="contact-heading">Contact Us</h2>
+
+      <div class="contact-details">
+        <p><strong>Business Hours:</strong> Monday to Saturday: 9:00 AM - 6:00 PM</p>
+        <p><strong>Contact:</strong> +91-8872110101</p>
+        <p><strong>Email:</strong> contact@ganpatitraders.org</p>
+        <p><strong>Address:</strong> Plot No, 205, Industrial Area Phase 1, Panchkula, Haryana 134109</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!--Footer-->
+
+  <section class="footer">
+    <p>© 2023 Ganpati Traders. All rights reserved.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--Javascript kód menü ki és becsukására (max700px képernyőn)-->
+  <!--JavaScript for Toggle Menu-->
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+
+</html>
