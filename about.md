@@ -68,14 +68,14 @@
 <body>
   <section class="sub-header">
     <nav>
-      <a href="index.html"><img src="images/logo.png"></a>
+      <a href="index"><img src="images/logo.png"></a>
       <div class="nav-links" id="navLinks">
         <!--Rákatt ikon- elrejti a menüt-->
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="index">HOME</a></li>
+          <li><a href="about">ABOUT</a></li>
+          <li><a href="contact">CONTACT</a></li>
         </ul>
       </div>
       <!--Rákatt ikon- mutatja a menüt-->

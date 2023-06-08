@@ -22,14 +22,14 @@
 <body>
   <section class="header">
     <nav>
-      <a href="index.html"><img src="images/logo.png"></a>
+      <a href="index"><img src="images/logo.png"></a>
       <div class="nav-links" id="navLinks">
         <!--Rákatt ikon- elrejti a menüt-->
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="index">HOME</a></li>
+          <li><a href="about">ABOUT</a></li>
+          <li><a href="contact">CONTACT</a></li>
         </ul>
       </div>
       <!--Rákatt ikon- mutatja a menüt-->
@@ -43,7 +43,7 @@
       <div>
         <p style="font-size: 18px; text-align: center;">Our mission is to elevate your beverage experience,offering
           you <br>not only the finest products but also unmatched service.</p>
-        <a href="contact.html" class="hero-button">Visit us To know More</a>
+        <a href="contact" class="hero-button">Visit us To know More</a>
       </div>
 
   </section>
@@ -204,7 +204,7 @@
 
   <section class="cta">
     <h1>Experience the essence of refreshment. <br> Take action and get in touch!</h1>
-    <a href="contact.html" class="hero-button">CONTACT US</a>
+    <a href="contact" class="hero-button">CONTACT US</a>
   </section>
 
   <!--Footer-->
